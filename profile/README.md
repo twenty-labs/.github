@@ -8,7 +8,7 @@ We focus on solving one problem completely before moving on to the next. Below a
 
 | Tool | What it does | Install |
 | --- | --- | --- |
-| [**AI OS**](https://www.npmjs.com/package/@twentylabs/ai-os) | CLI that compiles one company-wide definition of how AI agents work (roles, skills, policies, knowledge) into any repository, for the AI runtimes people use: Claude Code, Codex, Cursor, Claude Desktop and ChatGPT. | `npx -y @twentylabs/ai-os init --registry-version <version>` |
+| [**AI OS**](https://www.npmjs.com/package/@twentylabs/ai-os) | CLI that compiles one company-wide definition of how AI agents work (roles, skills, policies, knowledge) into any repository — code, marketing or sales. Claude Code today; more runtimes next. | `npx -y @twentylabs/ai-os init --registry-version <version>` |
 | [**AI OS registry**](https://www.npmjs.com/package/@twentylabs/ai-os-registry) | The content behind AI OS: roles, skills, policies, knowledge slots and profiles. Data only, versioned with semver. | Pinned in each repository's `ai-os.yaml` |
 | [**AI OS marketplace**](https://github.com/twenty-labs/ai-os-marketplace) | Claude Code plugin marketplace generated from the registry: one plugin per role and per skill. | `/plugin marketplace add twenty-labs/ai-os-marketplace` |
 | [**gads**](https://www.npmjs.com/package/@twentylabs/gads) | Scriptable CLI for the Google Ads API: profiles, GAQL queries, and validated change files. | `npm i -g @twentylabs/gads` |
